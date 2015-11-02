@@ -1579,7 +1579,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #F3F0EB !important;
+			color: #758971 !important;
 		}
 
 	strong, b {
@@ -2231,7 +2231,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa;
+				background-color: #F3F0EB;
 			}
 
 		table td {
@@ -2560,7 +2560,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 
 					#header > nav ul li a.active {
 						background: rgb(243, 240, 235);
-						color: #758971 !important;
+						color: #34343E !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2608,7 +2608,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 2em 0 0 0;
 	}
 
 		#footer .copyright {
@@ -3094,12 +3094,12 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 	height: 100%;
 	width: calc(48% - 2.5em);
 	padding: 10px;
-	padding-top: calc(10px + 2.5em);
+	padding-top: calc(13px + 2.5em);
 	transition: opacity 0.2s;
 }
 
 .first-project-links {
-	padding-top: 15px;
+	padding-top: 17px;
 }
 
 	.project-links:hover {
@@ -3127,4 +3127,19 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 
 article:last-child > div.project-links > a {
 	margin-top: 18%;
+}
+
+ul.contact-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.contact-list > li {
+	padding-left: 0;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+ul.contact-list > li > a > span.icon {
+	margin-right: 10px;
 }
