@@ -1579,7 +1579,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #758971 !important;
+			color: #758971;
 		}
 
 	strong, b {
