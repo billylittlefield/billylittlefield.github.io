@@ -2499,6 +2499,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 
 		#header > header {
 			padding: 3em;
+			height: 18em;
 		}
 
 			#header > header .avatar {
@@ -2597,7 +2598,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 18.6em;
+		height: 18em;
 		width: 100%;
 	}
 
