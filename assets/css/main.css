@@ -2313,7 +2313,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5;
+			background-color: #34343E;
 			color: #ffffff !important;
 		}
 
@@ -2404,7 +2404,7 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5ed0b1;
+				background-color: #34343E;
 			}
 
 			input[type="submit"].special:active,
@@ -2591,13 +2591,13 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner2.jpeg");
+		background-image: url("../../images/forest.jpeg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 18.6em;
 		width: 100%;
 	}
 
