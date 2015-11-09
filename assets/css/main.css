@@ -3107,17 +3107,33 @@ src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
 		opacity: 0.85;
 	}
 
-	.project-links a {
-		display: inline-block;
-		padding: 10px;
-		border: 1px solid white;
+	.project-links ul {
+		list-style: none;
+		position: relative;
+		margin-bottom: 0;
+		padding-left: 0;
+		transition: background 0.2s;
+		height: 99%;
+	}
+
+	.project-links > ul > li {
+		 left: 50%;
+		 position: relative;
+		 padding-left: 0;
+		 padding-top: 8%;
+		 margin-left: -25%;
+		 width: 50%;
+		 height: 40%;
+	}
+
+	.project-links > ul > li > a {
 		text-align: center;
-		margin-top: 5%;
-		margin-left: 33%;
+		border: 1px solid white;
 		background: darkgray;
 		color: white;
-		width: 80px;
-		transition: background 0.2s;
+		display: inline-block;
+		width: 100%;
+		padding: 8px 4px;
 	}
 
 	.project-links a:hover {
